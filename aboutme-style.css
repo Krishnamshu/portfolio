@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: poppins;
+  color: rgb(255, 255, 255);
+}
+.image-me {
+  float: right;
+  height: 250px;
+  margin: 15px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 3px rgb(0, 0, 81);
+  border-color: rgb(0, 0, 81);
+}
+.container > .quote {
+  color: rgb(0, 0, 81);
+}
+.container > h2 {
+  text-align: center;
+}
+.skills {
+  text-align: left;
+}
+.top {
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: left;
+  padding: 0em 2em;
+  text-shadow: 1px 0.5px 1px rgb(47, 47, 235);
+}
+.container {
+  padding: 1em;
+  text-align: justify;
+  height: max-content;
+}
+.container > p {
+  color: rgb(55, 48, 20);
+}
+.container-bg {
+  background-image: url("/img/af38b4d8-3c57-493b-b1d5-f4640feaa6de.jpg");
+  background-color: rgba(255, 255, 255, 0.586);
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.skills li {
+  color: rgb(60, 55, 28);
+  padding: 3px;
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 3px 0px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: rgba(216, 216, 255, 0.3);
+  transition-duration: 0.6s;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-bottom: 2px solid rgba(119, 136, 153, 0.7);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+h2 {
+  color: rgb(47, 47, 235);
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.skills {
+  color: rgb(43, 43, 255);
+  text-transform: capitalize;
+}
+
+html {
+  background-color: whitesmoke;
+}
+.header-bg {
+  background-color: rgb(43, 43, 255);
+  background-image: url("/img/17973908.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.main-footer {
+  background-color: rgb(43, 43, 255);
+  color: white;
+  padding: 10px 0;
+  height: min-content;
+  box-sizing: border-box;
+}
+.main-footer-container {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+.footer-nav li {
+  padding: 0 0.5em;
+}
+.main-footer img {
+  height: 24px;
+  width: auto;
+  display: block;
+}
